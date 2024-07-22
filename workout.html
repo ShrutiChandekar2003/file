@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout List</title>
+    <link rel="stylesheet" href="y.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout List</h1>
+        <div class="controls">
+            <input type="text" id="searchBox" placeholder="Search by name" />
+            <select id="filterType">
+                <option value="">All Workouts</option>
+                <option value="Cycling">Cycling</option>
+                <option value="Running">Running</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Weightlifting">Weightlifting</option>
+                <option value="Yoga">Yoga</option>
+                <option value="HIIT">HIIT</option>
+            </select>
+        </div>
+        <table id="workoutTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Workout Type</th>
+                    <th>Minutes</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="workoutList"></tbody>
+        </table>
+        <div class="pagination">
+            <button id="prevButton" class="nav-button">Previous</button>
+            <button id="nextButton" class="nav-button">Next</button>
+        </div>
+        <button id="homeButton" class="home-button">Home</button>
+    </div>
+    <script src="u.js"></script>
+</body>
+</html>

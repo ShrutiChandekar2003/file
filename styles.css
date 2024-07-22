@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1);
+}
+
+h1 {
+    color: #ff7e5f;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ff7e5f;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #5c22a9;
+    box-shadow: 0 0 8px rgba(255, 123, 94, 0.5);
+    outline: none;
+}
+
+button {
+    background: linear-gradient(to right, #48168f, #0754d0);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right,#48168f, #0754d0);
+    transform: scale(1.05);
+}
+
+.next-button {
+    margin-top: 20px;
+    background: #ff7e5f;
+    color: white;
+}
+
+.next-button:hover {
+    background: #feb47b;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/3523042151/thumb/1.jpg?ip=x480');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+}

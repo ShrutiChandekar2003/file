@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <h1>Health Challenge Tracker</h1>
+        <form id="workoutForm">
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <select id="workoutType" required>
+                <option value="" disabled selected>Select workout type</option>
+                <option value="Running">Running</option>
+                <option value="Cycling">Cycling</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Weightlifting">Weightlifting</option>
+                <option value="Yoga">Yoga</option>
+                <option value="HIIT">HIIT</option>
+            </select>
+            <input type="number" id="workoutMinutes" placeholder="Enter workout minutes" required>
+            <button type="submit" >Done</button >
+                
+        </form>
+        
+        <button id="nextPageButton" class="next-button">next</button>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
